@@ -1,6 +1,7 @@
 # binlog_rollback
 This python script is used to generating reverse SQL accoding to the binlog file. 
-How to use?
+# How to use?
+```
 shell> python binlog_rollback.py 
 ==========================================================================================
 Command line options :
@@ -21,3 +22,4 @@ Command line options :
 Sample :
    shell> python binlog_rollback.py -f 'mysql-bin.000001' -o '/tmp/rollback.sql' -h 192.168.0.1 -u 'user' -p 'pwd' -P 3307 -d dbname
 ==========================================================================================
+```
